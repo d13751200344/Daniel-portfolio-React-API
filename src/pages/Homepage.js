@@ -11,7 +11,7 @@ const Homepage = () => {
   let [currentSearch, useCurrentSearch] = useState("");
 
   //下方為 pexel api key
-  const auth = "5yJZxNZdldEiXxkqH87Y7FYjWUBHaY3qQdLsNCq9CEZlG906wWmZXljO";
+  const auth = "Here should be api key";
   //下方為 api 使用文件中的 http request 之 URL 與 相關參數(?與後方)
   const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
   let searchURL = `https://api.pexels.com/v1/search?query=${input}&per_page=15&page=1`;
